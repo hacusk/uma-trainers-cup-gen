@@ -1,0 +1,190 @@
+{
+  "racecourse": [
+    {
+      "host": "札幌競馬場",
+      "configurable": [
+        {
+          "racetrack": "芝",
+          "distance": ["短距離", "マイル", "中距離", "長距離"],
+          "handed": ["右回り"],
+          "course": ["なし"]
+        },
+        {
+          "racetrack": "ダート",
+          "distance": ["マイル"],
+          "handed": ["右回り"],
+          "course": ["なし"]
+        }
+      ]
+    },
+    {
+      "host": "函館競馬場",
+      "configurable": [
+        {
+          "racetrack": "芝",
+          "distance": ["短距離", "マイル", "中距離", "長距離"],
+          "handed": ["右回り"],
+          "course": ["なし"]
+        },
+        {
+          "racetrack": "ダート",
+          "distance": ["マイル"],
+          "handed": ["右回り"],
+          "course": ["なし"]
+        }
+      ]
+    },
+    {
+      "host": "福島競馬場",
+      "configurable": [
+        {
+          "racetrack": "芝",
+          "distance": ["短距離", "マイル", "中距離", "長距離"],
+          "handed": ["右回り"],
+          "course": ["なし"]
+        },
+        {
+          "racetrack": "ダート",
+          "distance": ["短距離", "マイル"],
+          "handed": ["右回り"],
+          "course": ["なし"]
+        }
+      ]
+    },
+    {
+      "host": "新潟競馬場",
+      "configurable": [
+        {
+          "racetrack": "芝",
+          "distance": ["短距離", "マイル", "中距離"],
+          "handed": ["右回り", "直線"],
+          "course": ["内回り", "外回り", "なし"]
+        },
+        {
+          "racetrack": "ダート",
+          "distance": ["短距離", "マイル"],
+          "handed": ["左回り"],
+          "course": ["なし"]
+        }
+      ]
+    },
+    {
+      "host": "東京競馬場",
+      "configurable": [
+        {
+          "racetrack": "芝",
+          "distance": ["短距離", "マイル", "中距離", "長距離"],
+          "handed": ["左回り"],
+          "course": ["なし"]
+        },
+        {
+          "racetrack": "ダート",
+          "distance": ["短距離", "マイル", "中距離"],
+          "handed": ["左回り"],
+          "course": ["なし"]
+        }
+      ]
+    },
+    {
+      "host": "中山競馬場",
+      "configurable": [
+        {
+          "racetrack": "芝",
+          "distance": ["短距離", "マイル", "中距離", "長距離"],
+          "handed": ["右回り"],
+          "course": ["内回り", "外回り"]
+        },
+        {
+          "racetrack": "ダート",
+          "distance": ["短距離", "マイル"],
+          "handed": ["右回り"],
+          "course": ["なし"]
+        }
+      ]
+    },
+    {
+      "host": "中京競馬場",
+      "configurable": [
+        {
+          "racetrack": "芝",
+          "distance": ["短距離", "マイル", "中距離"],
+          "handed": ["左回り"],
+          "course": ["なし"]
+        },
+        {
+          "racetrack": "ダート",
+          "distance": ["短距離", "マイル"],
+          "handed": ["左回り"],
+          "course": ["なし"]
+        }
+      ]
+    },
+    {
+      "host": "京都競馬場",
+      "configurable": [
+        {
+          "racetrack": "芝",
+          "distance": ["短距離", "マイル", "中距離", "長距離"],
+          "handed": ["右回り"],
+          "course": ["内回り", "外回り"]
+        },
+        {
+          "racetrack": "ダート",
+          "distance": ["短距離", "マイル", "中距離"],
+          "handed": ["右回り"],
+          "course": ["なし"]
+        }
+      ]
+    },
+    {
+      "host": "阪神競馬場",
+      "configurable": [
+        {
+          "racetrack": "芝",
+          "distance": ["短距離", "マイル", "中距離", "長距離"],
+          "handed": ["右回り"],
+          "course": ["内回り", "外回り", "外回り→内回り"]
+        },
+        {
+          "racetrack": "ダート",
+          "distance": ["短距離", "マイル", "中距離"],
+          "handed": ["右回り"],
+          "course": ["なし"]
+        }
+      ]
+    },
+    {
+      "host": "小倉競馬場",
+      "configurable": [
+        {
+          "racetrack": "芝",
+          "distance": ["短距離", "マイル", "中距離", "長距離"],
+          "handed": ["右回り"],
+          "course": ["なし"]
+        },
+        {
+          "racetrack": "ダート",
+          "distance": ["マイル"],
+          "handed": ["右回り"],
+          "course": ["なし"]
+        }
+      ]
+    },
+    {
+      "host": "大井競馬場",
+      "configurable": [
+        {
+          "racetrack": "ダート",
+          "distance": ["短距離", "マイル", "中距離"],
+          "handed": ["右回り"],
+          "course": ["なし"]
+        }
+      ]
+    }
+  ],
+  "condition": {
+    "seasons": ["春", "夏", "秋", "冬"],
+    "weather": ["晴-良", "晴-稍重", "曇-良", "曇-稍重", "雨-重", "雨-不良", "雪-稍重", "雪-重"],
+    "motivation": ["絶好調", "好調", "普通", "不調", "絶不調", "ランダム"]
+  }
+}
