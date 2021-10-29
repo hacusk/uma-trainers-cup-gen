@@ -30,29 +30,29 @@
 
   <div class="flex flex-wrap justify-center content-center">
 		<div class="grid grid-cols-2 grid-rows-8">
-			<p class="w-80 p-4 bg-green-300 border border-gray-800">開催地</p>
-			<p class="w-80 p-4 bg-green-100 border border-gray-800">{host}</p>
+			<p class="p-4 bg-green-300 border border-gray-800">開催地</p>
+			<p class="p-4 bg-green-100 border border-gray-800">{host}</p>
 	
-			<p class="w-80 p-4 bg-green-300 border border-gray-800">バ場</p>
-			<p class="w-80 p-4 bg-green-100 border border-gray-800">{racetrack}</p>
+			<p class="p-4 bg-green-300 border border-gray-800">バ場</p>
+			<p class="p-4 bg-green-100 border border-gray-800">{racetrack}</p>
 	
-			<p class="w-80 p-4 bg-green-300 border border-gray-800">距離</p>
-			<p class="w-80 p-4 bg-green-100 border border-gray-800">{distance}</p>
+			<p class="p-4 bg-green-300 border border-gray-800">距離</p>
+			<p class="p-4 bg-green-100 border border-gray-800">{distance}</p>
 	
-			<p class="w-80 p-4 bg-green-300 border border-gray-800">右回り・左回り</p>
-			<p class="w-80 p-4 bg-green-100 border border-gray-800">{handed}</p>
+			<p class="p-4 bg-green-300 border border-gray-800">右回り・左回り</p>
+			<p class="p-4 bg-green-100 border border-gray-800">{handed}</p>
 	
-			<p class="w-80 p-4 bg-green-300 border border-gray-800">内回り・外回り</p>
-			<p class="w-80 p-4 bg-green-100 border border-gray-800">{course}</p>
+			<p class="p-4 bg-green-300 border border-gray-800">内回り・外回り</p>
+			<p class="p-4 bg-green-100 border border-gray-800">{course}</p>
 	
-			<p class="w-80 p-4 bg-green-300 border border-gray-800">季節</p>
-			<p class="w-80 p-4 bg-green-100 border border-gray-800">{season}</p>
+			<p class="p-4 bg-green-300 border border-gray-800">季節</p>
+			<p class="p-4 bg-green-100 border border-gray-800">{season}</p>
 	
-			<p class="w-80 p-4 bg-green-300 border border-gray-800">天気・バ場状態</p>
-			<p class="w-80 p-4 bg-green-100 border border-gray-800">{weather}</p>
+			<p class="p-4 bg-green-300 border border-gray-800">天気・バ場状態</p>
+			<p class="p-4 bg-green-100 border border-gray-800">{weather}</p>
 	
-			<p class="w-80 p-4 bg-green-300 border border-gray-800">やる気</p>
-			<p class="w-80 p-4 bg-green-100 border border-gray-800">{motivation}</p>
+			<p class="p-4 bg-green-300 border border-gray-800">やる気</p>
+			<p class="p-4 bg-green-100 border border-gray-800">{motivation}</p>
 		</div>
 	</div>
 
