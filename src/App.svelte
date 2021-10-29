@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Tailwindcss from './Tailwindcss.svelte';
-  import races from './races.json';
+	import races from './races.json';
 
 	// drawing race
 	const drawHost =
@@ -23,31 +23,41 @@
 </script>
 
 <Tailwindcss />
-<main>
-	<h2 class="text-xl">トレーナーズカップジェネレーター</h2>
-
-  <div class="h-screen grid grid-cols-2 grid-rows-8">
-	<p>開催地:</p><p>{host}</p>
-	<p>バ場:</p><p>{racetrack}</p>
-	<p>距離:</p><p>{distance}</p>
-	<p>右回り・左回り:</p><p>{handed}</p>
-	<p>内回り・外回り:</p><p>{course}</p>
-	<p>季節:</p><p>{season}</p>
-	<p>天気・バ場状態:</p><p>{weather}</p>
-	<p>やる気:</p><p>{motivation}</p>
+<main class="flex flex-col">
+	<div class="flex justify-center content-center">
+		<p class="p-4 text-xl">トレーナーズカップジェネレーター</p>
 	</div>
+
+  <div class="flex flex-wrap justify-center content-center">
+		<div class="grid grid-cols-2 grid-rows-8">
+			<p class="w-80 p-4 bg-green-300 border border-gray-800">開催地</p>
+			<p class="w-80 p-4 bg-green-100 border border-gray-800">{host}</p>
+	
+			<p class="w-80 p-4 bg-green-300 border border-gray-800">バ場</p>
+			<p class="w-80 p-4 bg-green-100 border border-gray-800">{racetrack}</p>
+	
+			<p class="w-80 p-4 bg-green-300 border border-gray-800">距離</p>
+			<p class="w-80 p-4 bg-green-100 border border-gray-800">{distance}</p>
+	
+			<p class="w-80 p-4 bg-green-300 border border-gray-800">右回り・左回り</p>
+			<p class="w-80 p-4 bg-green-100 border border-gray-800">{handed}</p>
+	
+			<p class="w-80 p-4 bg-green-300 border border-gray-800">内回り・外回り</p>
+			<p class="w-80 p-4 bg-green-100 border border-gray-800">{course}</p>
+	
+			<p class="w-80 p-4 bg-green-300 border border-gray-800">季節</p>
+			<p class="w-80 p-4 bg-green-100 border border-gray-800">{season}</p>
+	
+			<p class="w-80 p-4 bg-green-300 border border-gray-800">天気・バ場状態</p>
+			<p class="w-80 p-4 bg-green-100 border border-gray-800">{weather}</p>
+	
+			<p class="w-80 p-4 bg-green-300 border border-gray-800">やる気</p>
+			<p class="w-80 p-4 bg-green-100 border border-gray-800">{motivation}</p>
+		</div>
+	</div>
+
+	<div class="flex justify-center content-center">
+		<p class="p-4 text-sm">Copyright (c) 2021 hacusk</p>
+	</div>
+
 </main>
-
-<style>
-	main {
-		text-align: center;
-		padding: 1em;
-		margin: 0 auto;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
-	}
-</style>
